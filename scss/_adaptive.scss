@@ -1,0 +1,474 @@
+@media (min-width: 200px ) and (max-width: 426px) {
+    .header {
+        display: none;
+    }
+    // 
+    .design {
+        .designContainer {
+            flex-direction: column;
+            .designLeftWrapper {
+                max-width: 300px;
+                margin: 0;
+                .designLeftTitle {
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 145%;
+                    color: #1C1D28;
+                    max-width: 300px;
+                }
+                .designGroup {
+                    display: none;
+                }
+            }
+            .designtRightWrapper {
+                margin-top: 45px;
+            }
+            .designtRightWrapper {
+                background: url(/img/designLogoSm.png);
+                background-repeat: no-repeat;
+                background-position: right top 30%;
+
+                .designContent {
+                    .designTitle {
+                        font-size: 25px;
+                        line-height: 145%;
+                    }
+                }
+            }
+        }
+    }
+    // 
+    .aboutUs {
+        .aboutDescr {
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+        .aboutSpn {
+            font-size: 13px;
+            line-height: 185%;
+        }
+    }
+    // 
+    .ourWork {
+        margin-top: 70px;
+        .workTitle {
+            font-size: 15px;
+            line-height: 145%;
+            margin-left: 0;
+        }
+        .workWrapper {
+            display: none;
+        }
+        .imgWrapper {
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+            .ImgTwoTop, .ImgTwoMiddle, .ImgTwoButtom{
+                flex-direction: column;
+                margin: 0;
+                .imgMd{
+                    width: 100%;
+                    margin: 0;
+                }
+                .imgSm{
+                    width: 100%;
+                    margin: 0;
+                }
+            }
+            .xlWrapper {
+                display: flex;
+                .imgXl {
+                    margin-top: 20px;
+                    width: auto;
+                }
+                .imgXl-2 {
+                    margin-top: 0;
+                    width: auto;
+                }
+            }
+        }
+        .btnWrapper {
+            margin-top: 55px;
+            .workBtn {
+                padding: 11px 33px;
+                font-size: 10px;
+                line-height: 12px;
+            }
+        }
+    }
+    .briefs {
+        margin-top: 70px;
+        .briefsTitle {
+            font-size: 15px;
+            line-height: 145%;
+        }
+        .briefsDescr {
+            margin-top: 20px;
+            margin-bottom: 40px;
+            font-size: 13px;
+            line-height: 185%;
+        }
+        .briefsText {
+            .briefsSpn {
+                margin-bottom: 0;
+            }
+            .briefsSubtitle {
+                font-size: 30px;
+                line-height: 145%;
+            }
+            .line {
+                display: none;
+            }
+            .subLink {
+                display: none;
+            }
+        }
+        .briefsText:hover {
+            .line {
+                display: none;
+            }
+            .subLink {
+                display: none;
+            }
+        }
+    }
+    .clients {
+        margin-top: 70px;
+        .clientsTitleWrapper{
+            .clientsTitle {
+                font-size: 15px;
+                line-height: 145%;
+            }
+            .clientsDescr {
+                font-size: 13px;
+                line-height: 185%;
+                align-items: center;
+            }        
+        }
+        .clientsWrapper {
+            margin-top: 70px;
+            .logoLeft {
+                .clientsItem{
+                    .clientsLogo {
+                        max-width: 80%;
+                    }
+                }
+            }
+            .logoCenter {
+                .clientsItem{
+                    .clientsLogo {
+                        max-width: 80%;
+                    }
+                }
+            }
+            .logoRight {
+                .clientsItem{
+                    .clientsLogo {
+                        max-width: 80%;
+                    }
+                }
+            }
+        }
+    }
+    .contacts {
+        .contWrapper {
+            display: flex;
+            flex-direction: column;
+            .contLeft {
+                margin-right: 0;
+                .contTitle {
+                    font-size: 15px;
+                    line-height: 145%;
+                    align-items: center;
+                }
+                .contDescr {
+                    font-size: 13px;
+                    line-height: 185%;
+                    align-items: center;
+                    text-align: center;
+                }
+                .contImg {
+                    display: none;
+                }
+            }
+            .contRight {
+                .contName {
+                    margin-top: 50px;
+                    .nameTitle {
+                        font-size: 13px;
+                        line-height: 16px;
+                    }
+                    .nameInp {
+                        max-width: 300px;
+                    }
+                }
+                .contTelandEmail {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 35px;
+                    .telWrapper {
+                        .telTitle {
+                            font-size: 13px;
+                            line-height: 16px;
+                        }
+                        .telInp {
+                            width: 300px;
+                        }
+                    }
+                    .emailWrapper {
+                        margin-top: 35px;
+                        .emailTitle {
+                            font-size: 13px;
+                            line-height: 16px;
+                        }
+                        .emailInp {
+                            width: 300px;
+                        }
+                    }
+                }
+                .contMessage {
+                    margin-top: 35px;
+                    .messageTitle {
+                        font-size: 13px;
+                            line-height: 16px;
+                    }
+                    .messageInp {
+                        width: 300px;
+                    }
+                }
+                .agreementWrapper {
+                    justify-content: center;
+                    padding-bottom: 75px;
+                    .agreementBtn {
+                        padding: 11px 121px;
+                    }
+                    .checkbox {
+                        display:none ;
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        .footerTop {
+            display: block;
+            padding-top: 20px;
+            .LogoWrapper {
+                margin-bottom: 31px;
+                .EllipseWrapper {
+                    display: none;
+                }
+            }
+            .footerNav {
+                display: flex;
+                flex-wrap: wrap;
+                .briefsWrapper {
+                    margin-right: 100px;
+                    margin-bottom: 43px;
+                }
+                // about
+                .aboutUsWrapper {
+                    margin-right: 40px;
+                }
+            }
+        }
+        .footerButtom {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            justify-content: center;
+            .buttomleft {
+                .leftSpn {
+                    font-weight: 400;
+                    font-size: 10px;
+                    line-height: 12px;
+                }
+            }
+            .buttomRight {
+                .privacyLink {
+                    font-weight: 400;
+                    font-size: 10px;
+                    line-height: 12px;
+                    margin-right: 10px;
+                }
+                .offerLink {
+                    font-weight: 400;
+                    font-size: 10px;
+                    line-height: 12px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 427px) and (max-width: 768px) {
+    .header {
+        .headerWrapper {
+            justify-content: space-between;
+            .headerNav {
+                .headerList {
+                    .headerItem {
+                        margin-right: 25px;
+                        font-size: 10px;
+                    }
+                }
+            }
+            .headerContacts {
+                .headerTel {
+                    margin-right: 20px;
+                    font-size: 10px;
+                }
+                .headerBtn {
+                    font-size: 10px;
+                    padding: 10px 18px;
+                }
+            }
+        }
+    }
+    // design 
+    .design {
+        .designContainer {
+            .designLeftWrapper {
+                margin-right: 100px;
+                margin-top: 54px;
+                .desigLeftnSpn {
+                    font-size: 10px;
+                }
+                .designLeftTitle {
+                    font-size: 20px;
+                }
+                .designBtn {
+                    font-size: 10px;
+                }
+            }
+            .designtRightWrapper {
+                max-width: 340px;
+               .designContent {
+                    .designRightSpn {
+                        font-size: 20px;
+                    }
+                    .designTitle {
+                        font-size: 30px;
+                    }
+               }
+            }
+        }
+    }
+    .aboutUs {
+        margin-top: 110px;
+        .aboutTitle {
+            font-size: 15px;
+        }
+        .aboutDescr {
+            font-size: 20px;
+        }
+        .aboutSpn {
+            font-size: 15px;
+        }
+    }
+    .ourWork {
+        margin-top: 70px;
+        .workTitle {
+            font-size: 15px;
+            line-height: 145%;
+            margin-left: 0;
+        }
+        .workWrapper {
+            display: block;
+            margin-left: 0px;
+        }
+        .imgWrapper {
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+            .ImgTwoTop, .ImgTwoMiddle, .ImgTwoButtom{
+                flex-direction: column;
+                margin: 0;
+                .imgMd{
+                    width: 768px;
+                    margin: 0;
+                }
+                .imgSm{
+                    width:auto;
+                    margin: 0;
+                }
+            }
+            .xlWrapper {
+                .imgXl-2 {
+                    margin-top: 0px;
+                    width: auto;
+                }
+                .imgXl {
+                    margin-top: 40px;
+                }
+            }
+        }
+        .btnWrapper {
+            margin-top: 55px;
+            .workBtn {
+                padding: 11px 33px;
+                font-size: 10px;
+                line-height: 12px;
+            }
+        }
+    }
+    .briefs {
+        margin-top: 115px;
+        .briefsTitle {
+            font-size: 20px;
+        }
+        .briefsDescr {
+            margin-top: 20px;
+            margin-bottom: 70px;
+        }
+        
+    }
+    .clients {
+        margin-top: 120px;
+        .clientsWrapper {
+            .clientsTitle {
+                font-size: 20px;
+            }
+        }
+    }
+    .contacts {
+        .contWrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .contLeft {
+                text-align: center;
+                .contTitle {
+                    font-size: 20px;
+                    margin-bottom: 20px;
+                }
+                .contDescr {
+                    margin-bottom: 95px;
+                }
+                .contImg {
+                    display: none;
+                }
+            }
+            .agreementWrapper {
+                margin-bottom: 95px;
+            }
+        }
+    }
+    .footer {
+        .footerTop {
+            display: block;
+            padding-top: 30px;
+            .LogoWrapper {
+                margin-bottom: 80px;
+                .EllipseWrapper {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
